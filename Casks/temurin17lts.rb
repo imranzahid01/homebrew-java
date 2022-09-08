@@ -3,7 +3,7 @@ cask "temurin17lts" do
   version "17.0.4.1,1"
 
   if Hardware::CPU.intel?
-    sha256 "ac21a5a87f7cfa00212ab7c41f7eb80ca33640d83b63ad850be811c24095d61a"
+    sha256 "a55881728d023626de45c48151bb132b699bafdba1a073c0597dcb1b48c812eb"
   else
     sha256 "3a976943a9e6a635e68e2b06bd093fc096aad9f5894acda673d3bea0cb3a6f38"
   end
